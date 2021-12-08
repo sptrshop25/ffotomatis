@@ -1,7 +1,7 @@
 <?php
 
 $agent=$_SERVER['HTTP_USER_AGENT'];
-if(!preg_match('/com.sptrshop', $agent) ) {
+if(!preg_match('/com.sptrshop Bukaolshop/i', $agent) ) {
  exit("Halaman ini hanya bisa dibuka di aplikasi xxxxx");
 }
 ?>
